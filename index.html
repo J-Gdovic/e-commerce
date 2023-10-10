@@ -6,17 +6,34 @@
     <title>Golf 'R' Us</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
   </head>
-  <header>
+  <div class="d-flex flex-wrap justify-content-center">
     <img src="images/logo.png" alt="Golf 'R' US logo" />
-  </header>
-  <body>
-    <nav>
-      <ul class="d-flex justify-content-around align-content-center text-decoration-none">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-    </nav>
+  </div>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="about.html" class="nav-link px-2 link-dark">About Us</a></li>
+              <li><a href="products.html" class="nav-link px-2 link-dark">Products</a></li>
+              <li><a href="login.html" class="nav-link px-2 link-dark">Sign In</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+          </div>
+        </div>
+  
+      </header>
+    
+    
+  <body class="m-5">
+   
     <div>
       <p>
         Welcome to the Golf 'R'Us <br />
@@ -24,38 +41,41 @@
       </p>
     </div>
 
-    <h2>Shop By:</h2>
+    <h2><a href="products.html" class="text-decoration-none">Shop Products:</a></h2>
     <div>
       <nav>
-        <ul class="d-flex flex-column justify-content-around align-content-center">
-          <li><a href="balls.html">Golf Balls</a></li>
-          <li><a href="clubs.html">Golf Clubs</a></li>
-          <li><a href="apparel.html">Golf Apparel</a></li>
-          <li><a href="accessories.html">Golf Accessories</a></li>
+        <ul class="d-flex flex-row justify-content-around align-content-center">
+          <li><a href="products.html" class="text-decoration-none">Golf Balls</a></li>
+          <li><a href="products.html" class="text-decoration-none">Golf Clubs</a></li>
+          <li><a href="products.html"class="text-decoration-none">Golf Apparel</a></li>
+          <li><a href="products.html" class="text-decoration-none">Golf Accessories</a></li>
         </ul>
       </nav>
     </div>
+   
+    <div class="d-flex flex-wrap mt-5">
+        <img src="images/course2.jpg" alt="Golf Course 3"></li>
+        <img src="images/golf course1.jpg" alt="Golf Course"></li>
+        <img src="images/course3.jpg" alt="Golf Course2"></li>
+       
+    </div>
 
-    <h3>Shop by our top brands:</h3>
+    <h3 class="mt-5">Shop by our top brands:</h3>
     <div>
       <p>
         No matter your score or experience <br />
         Shop like the pros with the best from the leading brands in golf!
       </p>
     </div>
-<div>
-    <img src="images/golf course1.jpg" alt="Golf Course" class="d-flex justify-content-between">
-</div>
-    <div>
-      <ol class="d-flex flex-row">
+
+    <div class="mt-5">
+      <ol class="d-flex flex-row justify-content-center flex-wrap bg-black">
         <li><img src="images/Bands/titlest.png" alt="Titlest"></li>
         <li><img src="images/Bands/taylormade.png" alt="Taylormade"></li>
         <li><img src="images/Bands/callaway.png" alt="Callaway"></li>
         <li><img src="images/Bands/Ping.png" alt="Ping"></li>
         <li><img src="images/Bands/bridgestone.png" alt="Bridgestone"></li>
-        </ol>
 
-        <ol class="d-flex flex-row">
         <li><img src="images/Bands/wilson.png" alt="Wilson"></li>
         <li><img src="images/Bands/Mizuno.png" alt="Mizuno"></li>
         <li><img src="images/Bands/Cobra.png" alt="Cobra"></li>
