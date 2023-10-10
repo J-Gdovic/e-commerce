@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+  </head>
+  <header>
+    <img src="images/logo.png" alt="Golf 'R' US logo" />
+    <div>
+      <nav>
+        <ul class="d-flex justify-content-around align-content-center">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <body>
+    <div>
+      <h1>Create New Account:</h1>
+    </div>
+
+    <main>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputusername1" class="form-label">Username</label>
+          <input type="text" class="form-control" id="inputusername1" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputusername2" class="form-label">Username Confirmation</label>
+          <input type="text" class="form-control" id="inputusername2" />
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail1" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail2" class="form-label">Email Confirmation</label>
+          <input type="email" class="form-control" id="inputEmail2" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword1" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword2" class="form-label">Password Confirmation</label>
+          <input type="password" class="form-control" id="inputPassword2" />
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12"></div>
+
+        <div>
+          <h2>How did you hear about us?</h2>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+          <label class="form-check-label" for="flexRadioDefault1"> Radio </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+          <label class="form-check-label" for="flexRadioDefault2"> Social Media </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
+          <label class="form-check-label" for="flexRadioDefault1"> Friend or Family </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked />
+          <label class="form-check-label" for="flexRadioDefault2"> Internet Advertisement </label>
+        </div>
+
+        <div class="col-12 d-flex justify-content-around">
+          <button type="submit" class="btn btn-primary">Complete!</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <script src="script/bootstrap.bundle.js"></script>
+    </footer>
+  </body>
+</html>
