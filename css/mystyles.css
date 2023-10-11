@@ -1,7 +1,8 @@
 body{
     background-color: rgb(213, 224, 213);
-   
-}
-#logo{
-    background-color:rgb(213, 224, 213) ;
+   }
+
+.card {
+    background-color:rgba(169, 177, 181, 0.73) ;
+    border-color:rgba(80, 251, 42, 0.845);
 }
