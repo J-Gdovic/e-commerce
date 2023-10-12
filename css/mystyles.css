@@ -10,3 +10,7 @@ body{
 #product-video{
     background-color:rgba(169, 177, 181, 0.73) ;
 }
+
+*{
+    font-family:montserrat;
+}
